@@ -2,3 +2,7 @@ R5T.Code.VS.Types.Core - A library for Visual Studio functionality containing co
 
 Goals
 
+
+Dependencies
+
+* R5T.NetStandard.TypedString - TypedString for SolutionName ProjectName.
