@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Code.VS.Types.Core.Construction", "R5T.Code.VS.Types.Core.Construction\R5T.Code.VS.Types.Core.Construction.csproj", "{EA80D2E9-5A2E-4DEC-AAE2-F1CC62D34A16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Code.VS.Types.Core.Construction", "R5T.Code.VS.Types.Core.Construction\R5T.Code.VS.Types.Core.Construction.csproj", "{EA80D2E9-5A2E-4DEC-AAE2-F1CC62D34A16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Code.VS.Types.Core", "R5T.Code.VS.Types.Core\R5T.Code.VS.Types.Core.csproj", "{BC891DCA-588B-46FE-B5D1-A5E4707CEDEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Code.VS.Types.Core", "R5T.Code.VS.Types.Core\R5T.Code.VS.Types.Core.csproj", "{BC891DCA-588B-46FE-B5D1-A5E4707CEDEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Code.VS.Types.Core.Testing", "R5T.Code.VS.Types.Core.Testing\R5T.Code.VS.Types.Core.Testing.csproj", "{563540AD-5523-4933-9D89-84570730DD83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Code.VS.Types.Core.Testing", "R5T.Code.VS.Types.Core.Testing\R5T.Code.VS.Types.Core.Testing.csproj", "{563540AD-5523-4933-9D89-84570730DD83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{B3EC8330-7425-442C-9190-03CB0A1B990E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.NetStandard.TypedString", "..\..\R5T.NetStandard.TypedString\source\R5T.NetStandard.TypedString\R5T.NetStandard.TypedString.csproj", "{70BD725E-8BFC-4D17-83DF-8D541A9BAEBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EA80D2E9-5A2E-4DEC-AAE2-F1CC62D34A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +59,26 @@ Global
 		{563540AD-5523-4933-9D89-84570730DD83}.Release|x64.Build.0 = Release|Any CPU
 		{563540AD-5523-4933-9D89-84570730DD83}.Release|x86.ActiveCfg = Release|Any CPU
 		{563540AD-5523-4933-9D89-84570730DD83}.Release|x86.Build.0 = Release|Any CPU
+		{70BD725E-8BFC-4D17-83DF-8D541A9BAEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BD725E-8BFC-4D17-83DF-8D541A9BAEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BD725E-8BFC-4D17-83DF-8D541A9BAEBC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{70BD725E-8BFC-4D17-83DF-8D541A9BAEBC}.Debug|x64.Build.0 = Debug|Any CPU
+		{70BD725E-8BFC-4D17-83DF-8D541A9BAEBC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{70BD725E-8BFC-4D17-83DF-8D541A9BAEBC}.Debug|x86.Build.0 = Debug|Any CPU
+		{70BD725E-8BFC-4D17-83DF-8D541A9BAEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BD725E-8BFC-4D17-83DF-8D541A9BAEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70BD725E-8BFC-4D17-83DF-8D541A9BAEBC}.Release|x64.ActiveCfg = Release|Any CPU
+		{70BD725E-8BFC-4D17-83DF-8D541A9BAEBC}.Release|x64.Build.0 = Release|Any CPU
+		{70BD725E-8BFC-4D17-83DF-8D541A9BAEBC}.Release|x86.ActiveCfg = Release|Any CPU
+		{70BD725E-8BFC-4D17-83DF-8D541A9BAEBC}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70BD725E-8BFC-4D17-83DF-8D541A9BAEBC} = {B3EC8330-7425-442C-9190-03CB0A1B990E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDBD62C4-E7CD-4935-8C49-090ED992158F}
 	EndGlobalSection
 EndGlobal
